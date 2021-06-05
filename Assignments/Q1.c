@@ -3,8 +3,8 @@
 int main()
 {
   int x;
-  for(x<150)
+  for(x=25;x<150;x++)
   {
-    printf();
+    printf("%d\n",x);
   }
 }
