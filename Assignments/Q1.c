@@ -2,10 +2,11 @@
 
 int main()
 {
-  int x;
-  for(x=24;x<151;x++)
+  int x,y;
+
+  for (x=25; x<151; x++)
   {
-    printf("%d\n",x);
+    printf("%d\n", x);
   }
   return 0;
 }
