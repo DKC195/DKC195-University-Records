@@ -1,3 +1,3 @@
 # DKC
 
-#I'm Just Practicing to Use Git
+I'm Just Practicing to Use Git
