@@ -5,7 +5,7 @@ int main()
   int x,y;
   y=0;
 
-  for(x=1;x<101;x++)
+  for(x=0;x<101;x++)
   {
     y=y+x;
   }
