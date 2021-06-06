@@ -10,8 +10,8 @@ int main() {
     exit(0);
   }
   do {
-    n=n/2;
     b=b+x*(n%2);
+    n=n/2;
     x=x*10;
   } while (n>0);
   printf("The binary is %d\n", b);
