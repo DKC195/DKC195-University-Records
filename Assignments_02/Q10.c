@@ -23,7 +23,7 @@ int main() {
   else if(units<401) x=1;
   else if(400<units) x=0;
   else x=7;
-  switch(x)
+  switch(x) {
     case 0:
       diff=units-400;
       units=units-diff;
