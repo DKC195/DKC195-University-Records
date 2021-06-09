@@ -1,3 +1,4 @@
+//WAP to display all the Armstrong numbers between 1 to 500.
 #include <stdio.h>
 
 int main() {

@@ -1,4 +1,5 @@
-//WAP to read the distance between two cities (in km) and display the distance in meters, feet, inches and centimeters.
+/*WAP to read the distance between two cities (in km) and 
+display the distance in meters, feet, inches and centimeters.*/
 #include <stdio.h>
 
 int main() {

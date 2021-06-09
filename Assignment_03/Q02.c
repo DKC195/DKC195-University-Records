@@ -1,3 +1,4 @@
+//WAP to calculate the sum of numbers from 1 to 100.
 #include <stdio.h>
 
 int main() {
