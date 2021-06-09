@@ -1,3 +1,4 @@
+//WAP to print odd numbers from 200 to 250.
 #include <stdio.h>
 
 int main() {
@@ -5,7 +6,6 @@ int main() {
   for (x=200; x<250; x++) {
     y=x%2;
     if (y==1) printf("%d\n", x);
-    else
-  }
+    }
   return 0;
 }

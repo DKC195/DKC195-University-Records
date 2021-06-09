@@ -1,3 +1,4 @@
+//WAP to read a number and check whether it is prime or not.
 #include <stdio.h>
 
 int main() {

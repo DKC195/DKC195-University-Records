@@ -1,7 +1,5 @@
-/* If a five digit number is input through the keyboard.
-Calculate the sum of its digits.
-Reverse the numbers.
-Some of the first and last digits. */
+/* If a five digit number is input through the keyboard. Calculate the sum of its digits.
+Reverse the numbers. Sum of the first and last digits. */
 #include <stdio.h>
 
 int main() {
