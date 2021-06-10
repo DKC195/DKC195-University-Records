@@ -4,14 +4,13 @@
 
 int main() {
 	int d,a,b,c,x;
-	printf("Armstrong Number Test \n Enter the three digit number: \n");
+	printf("Armstrong Number Test \nEnter the three digit number: \n");
 	scanf("%d",&d);
 	a=d/100;
 	b=(d%100)/10;
 	c=d%10;
 	x=a*a*a+b*b*b+c*c*c;
-	if(x==d) printf("The number is Armstrong Number.");
-	else printf("Do you even know what Armstrong Number is?");
+	(x==d) ? printf("The number is Armstrong Number."): printf("Do you even know what Armstrong Number is?");
 	return 0;
 }
 
