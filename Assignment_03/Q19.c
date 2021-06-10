@@ -1,3 +1,4 @@
+//WAP to read a +ve integer and determine and print its binary equivalent.
 #include <stdio.h>
 
 int main() {
