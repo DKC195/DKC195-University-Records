@@ -1,13 +1,17 @@
+/*WAP to read values from user and find the sum of given numbers until the user enters 0
+and also finds its average.*/
 #include <stdio.h>
 
 int main() {
-  int x=0,n=1;
+  float x=0,n=1,i=0;
   printf("Sum will be displayed when you enter 0.\n");
   do {
     printf("Enter a number:\n");
-    scanf("%d", &n);
+    scanf("%f", &n);
     x=x+n;
+    i++;
   } while (n!=0);
-  printf("The sum is %d.\n", x);
+  n=x/(i-1);
+  printf("The sum is %.2f and the average is %.2f.\n", x, n);
   return 0;
 }

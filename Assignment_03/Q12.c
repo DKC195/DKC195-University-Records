@@ -1,5 +1,6 @@
+/*Two number are entered through the keyboard. Write a program to find the value of one raised
+to the power of another. */
 #include <stdio.h>
-#include <math.h>
 
 int main() {
   int x,n,y=1;

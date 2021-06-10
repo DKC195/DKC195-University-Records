@@ -1,3 +1,4 @@
+//WAP to display all the characters and the ASCII values whose ASCII ranges from 1 to 255.
 #include <stdio.h>
 
 int main() {

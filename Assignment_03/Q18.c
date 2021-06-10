@@ -1,3 +1,4 @@
+//WAP to find the sum of series; 1+11+111+1111+.....+n
 #include <stdio.h>
 
 int main() {

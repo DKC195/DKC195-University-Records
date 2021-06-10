@@ -1,3 +1,4 @@
+//WAP to read a number and calculate its factorial.
 #include <stdio.h>
 
 int main() {
