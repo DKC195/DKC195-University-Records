@@ -1,9 +1,9 @@
 /*WAP to generate the follwing output:
-        *
-      * * *
-    * * * * *
-  * * * * * * *
-* * * * * * * * * */
+    *
+   ***
+  *****
+ *******
+********* */
 #include <stdio.h>
 
 int main() {
