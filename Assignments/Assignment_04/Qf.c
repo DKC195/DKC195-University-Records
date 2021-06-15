@@ -1,4 +1,4 @@
-/*WAP to generate the follwing output:
+/*WAP to generate the following output:
 ABCDEFGFEDCBA
 ABCDEF FEDCBA
 ABCDE   EDCBA
