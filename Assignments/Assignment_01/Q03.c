@@ -3,7 +3,7 @@ Read the full max of each subject as well. Print the percentage score by the stu
 #include <stdio.h>
 
 int main() {
-	float a,b,c,d,e,t,x,p;
+	float a,b,c,d,e,t;
 	printf("Enter the marks obtained in Subject A:\n");
 	scanf("%f",&a);
 	printf("Enter the marks obtained in Subject B:\n");
@@ -16,8 +16,6 @@ int main() {
 	scanf(" %f",&e);
 	printf("Enter Total Marks:\n");
 	scanf(" %f",&t);
-	x=a+b+c+d+e;
-	p=(x/t)*100;
-	printf("The percentage obtained by student is %.2f%%.",p);
+	printf("The percentage obtained by student is %.2f%%.", ((a+b+c+d+e)/t)*100);
 	return 0;
 }

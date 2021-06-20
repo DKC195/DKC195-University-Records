@@ -5,13 +5,6 @@ int main() {
 	char a;
 	printf("Write an Alphabet:\n");
 	scanf("%c",&a);
-	if(a<97) {
-    a=a+32;
-    printf("The lower case is %c",a);
-	}
-	else {
-    a=a-32;
-    printf("The upper case is %c",a);
-	}
+	(a<97) ? printf("The lower case is %c", a+32): printf("The upper case is %c", a-32);
 	return 0;
 }

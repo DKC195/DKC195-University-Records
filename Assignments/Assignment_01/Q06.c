@@ -2,12 +2,9 @@
 #include <stdio.h>
 
 int main() {
-	int a,b,c,d;
+	int a;
 	printf("Enter a two digit number:\n");
 	scanf("%d",&a);
-	c=a%10;
-	d=a/10;
-	b=(c*10)+d;
-	printf("The interchanged form is %d.",b);
+	printf("The interchanged form is %d.", (a%10*10)+a/10);
 	return 0;
 }

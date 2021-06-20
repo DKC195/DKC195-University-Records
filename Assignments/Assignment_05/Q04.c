@@ -18,6 +18,5 @@ int main() {
 }
 
 int sum(int x, int y){
-  y=y+x;
-  return y;
+  return y+x;
 }

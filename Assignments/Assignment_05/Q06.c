@@ -1,18 +1,16 @@
 // WAP to convert a given lowercase to uppercase using function.
 #include <stdio.h>
 
-char l2u(char x);
+char l2u(char);
 
 int main() {
-  char l,u;
+  char l;
   printf("Enter a lowercase letter:\n");
   scanf("%c", &l);
-  u=l2u(l);
-  printf("%c is the uppercase of %c", u, l);
+  printf("%c is the uppercase of %c", l2u(l), l);
   return 0;
 }
 
 char l2u(char x){
-  x=x-32;
-  return x;
+  return x-32;
 }
