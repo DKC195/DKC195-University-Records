@@ -1,14 +1,13 @@
 //WAP to find the square of any number using the function.
 #include <stdio.h>
 
-float sq(float s);
+float sq(float);
 
 int main() {
-  float x,a;
+  float x;
   printf("Enter a number:");
   scanf("%f", &x);
-  a=sq(x);
-  printf("The square of %.3f is %.3f.\n", x, a);
+  printf("The square of %.3f is %.3f.\n", x, sq(x));
   return 0;
 }
 

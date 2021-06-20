@@ -2,12 +2,9 @@
 #include <stdio.h>
 
 int main() {
-	int g,h,m,s;
+	int t;
 	printf("Enter the time in total seconds:\n");
-	scanf("%d",&g);
-	s=g%60;
-	h=g/3600;
-	m=g/60-h*60;
-	printf("The time is %d hours %d minutes %d seconds",h,m,s);
+	scanf("%d",&t);
+	printf("The time is %d hours %d minutes %d seconds", t%60, t/3600, t/60-(t/3600)*60);
 	return 0;
 }

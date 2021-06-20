@@ -4,14 +4,13 @@ and also finds its average.*/
 
 int main() {
   float x=0,n=1,i=0;
-  printf("Sum will be displayed when you enter 0.\n");
+  printf("Sum and its average will be displayed when you enter 0.\n");
   do {
     printf("Enter a number:\n");
     scanf("%f", &n);
     x=x+n;
     i++;
   } while (n!=0);
-  n=x/(i-1);
-  printf("The sum is %.2f and the average is %.2f.\n", x, n);
+  printf("The sum is %.2f and the average is %.2f.\n", x, x/(i-1));
   return 0;
 }
