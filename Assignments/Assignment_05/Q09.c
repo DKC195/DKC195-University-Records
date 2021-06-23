@@ -1,5 +1,4 @@
-//WAP tofind the LCM of two given number using a function.
-//WAP to find the HCF of two given number using functions
+//WAP to find the LCM of two given number using a function.
 #include <stdio.h>
 
 int LCM(int, int);

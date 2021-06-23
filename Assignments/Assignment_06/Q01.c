@@ -1,5 +1,5 @@
 //WAP to find power of any number using recursion.
- #include <stdio.h>
+#include <stdio.h>
 
 int power(int, int);
 
@@ -11,7 +11,7 @@ int main() {
   scanf("%d", &p);
   printf("The output is %d.",power(n,p));
   return 0;
- }
+}
 
 int power(int x, int y) {
   if (y==1) return x;
