@@ -7,7 +7,7 @@ int main() {
   int n;
   printf("Enter a number:");
   scanf("%d", &n);
-  printf("The reverse of %d is %d.",n ,rev(n));
+  printf("The reverse of %d is %d.", n,rev(n));
   return 0;
 }
 
