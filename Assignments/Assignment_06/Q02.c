@@ -5,9 +5,9 @@ int product(int, int);
 
 int main() {
   int n,p;
-  printf("Enter a number:");
+  printf("Enter a number: ");
   scanf("%d", &n);
-  printf("Enter second:");
+  printf("Enter second: ");
   scanf("%d", &p);
   printf("The product is %d.",product(n,p));
   return 0;

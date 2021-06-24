@@ -5,9 +5,9 @@ int power(int, int);
 
 int main() {
   int n,p;
-  printf("Enter a number:");
+  printf("Enter a number: ");
   scanf("%d", &n);
-  printf("Enter the power to be raised:");
+  printf("Enter the power to be raised: ");
   scanf("%d", &p);
   printf("The output is %d.",power(n,p));
   return 0;

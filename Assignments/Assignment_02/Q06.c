@@ -4,7 +4,7 @@
 
 int main() {
 	int d,a,b,c,x;
-	printf("Armstrong Number Test \nEnter the three digit number: \n");
+	printf("Armstrong Number Test \nEnter the three digit number: ");
 	scanf("%d",&d);
 	a=d/100;
 	b=(d%100)/10;

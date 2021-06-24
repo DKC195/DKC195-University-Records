@@ -10,7 +10,7 @@ int main() {
     scanf("%d", &a);
     su=sum(a,su);
     if (a==0) {
-      printf("The sum is %d", su);
+      printf("The sum is %d.", su);
       break;
     }
   }

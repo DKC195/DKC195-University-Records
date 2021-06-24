@@ -4,7 +4,7 @@ Reverse the numbers. Sum of the first and last digits. */
 
 int main() {
 	int num,a,b,c,d,e;
-	printf("Enter a five digit number:\n");
+	printf("Enter a five digit number: ");
 	scanf("%d",&num);
 	e=num%10;
 	d=((num/10)%10);

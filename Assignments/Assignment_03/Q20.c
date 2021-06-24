@@ -3,16 +3,16 @@
 
 int main() {
   int n,x,s;
-  printf("Enter the natural number n:\n");
+  printf("Enter the natural number n: ");
   scanf("%d", &n);
-  if (n<1) printf("The Number is not natural.\n");
+  if (n<1) printf("The Number is not natural.");
   else {
     for (int i=1; i<n+1; i++) {
       x=i*i;
-      printf("The square of %d is %d.\n", i, x);
+      printf("The square of %d is %d.", i, x);
       s=s+x;
     }
   }
-  printf("The sum of square is %d.\n", x);
+  printf("The sum of square is %d.", x);
   return 0;
 }
