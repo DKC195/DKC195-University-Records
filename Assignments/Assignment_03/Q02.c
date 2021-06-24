@@ -4,6 +4,6 @@
 int main() {
   int y=0;
   for (int x=1; x<101; x++) y=y+x;
-  printf("The sum of number is %d\n", y);
+  printf("The sum of number is %d.", y);
   return 0;
 }

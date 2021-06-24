@@ -4,9 +4,9 @@ to the power of another. */
 
 int main() {
   int x,n,y=1;
-  printf("Enter the first number:\n");
+  printf("Enter the first number: ");
   scanf("%d", &x);
-  printf("Enter the power to be raised:\n");
+  printf("Enter the power to be raised: ");
   scanf(" %d", &n);
   for (int i=0; i<n; i++) y=y*x;
   printf("The answer is %d.", y);

@@ -3,7 +3,7 @@
 
 int main() {
   int n,x=0,z;
-  printf("Enter a number:\n");
+  printf("Enter a number: ");
   scanf("%d", &n);
   z=n;
   for (n; n>0; n=n/10) x=x*10+n%10;

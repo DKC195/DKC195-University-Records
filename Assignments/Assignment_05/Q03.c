@@ -5,7 +5,7 @@ int oe(int);
 
 int main() {
   int a;
-  printf("Enter a number:");
+  printf("Enter a number: ");
   scanf("%d", &a);
   oe(a);
   return 0;

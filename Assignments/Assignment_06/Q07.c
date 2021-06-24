@@ -5,7 +5,7 @@ int fibo(int);
 
 int main() {
   int n;
-  printf("Enter a number:");
+  printf("Enter a number: ");
   scanf("%d", &n);
   printf("The %dth term is %d.", n, fibo(n));
   return 0;

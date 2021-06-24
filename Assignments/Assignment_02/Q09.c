@@ -13,7 +13,7 @@ int main() {
   float units,calc,diff;
   int x;
   calc=0;
-  printf("Enter the units of electricity consumed:\n");
+  printf("Enter the units of electricity consumed: ");
   scanf("%f",&units);
   if(0<units && units<21) x=6;
   else if(units<31) x=5;

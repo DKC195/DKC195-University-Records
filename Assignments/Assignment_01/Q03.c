@@ -4,15 +4,15 @@ Read the full max of each subject as well. Print the percentage score by the stu
 
 int main() {
 	float a,b,c,d,e,t;
-	printf("Enter the marks obtained in Subject A:\n");
+	printf("Enter the marks obtained in Subject A: ");
 	scanf("%f",&a);
-	printf("Enter the marks obtained in Subject B:\n");
+	printf("Enter the marks obtained in Subject B: ");
 	scanf(" %f",&b);
-	printf("Enter the marks obtained in Subject C:\n");
+	printf("Enter the marks obtained in Subject C: ");
 	scanf(" %f",&c);
-	printf("Enter the marks obtained in Subject D:\n");
+	printf("Enter the marks obtained in Subject D: ");
 	scanf(" %f",&d);
-	printf("Enter the marks obtained in Subject E:\n");
+	printf("Enter the marks obtained in Subject E: ");
 	scanf(" %f",&e);
 	printf("Enter Total Marks:\n");
 	scanf(" %f",&t);

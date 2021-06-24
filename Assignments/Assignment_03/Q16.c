@@ -3,7 +3,7 @@
 
 int main() {
   int n,m,h;
-  printf("Enter the numbers:\n");
+  printf("Enter the numbers: ");
   scanf("%d\n%d", &n, &m);
   for (h=n; h>0; h--) if (n%h==0 && m%h==0) break;
   printf("The HCF is %d.\n", h);

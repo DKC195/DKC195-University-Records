@@ -3,8 +3,8 @@
 
 int main() {
 	float f;
-	printf("Enter the temprature in F: \n");
+	printf("Enter the temprature in F: ");
 	scanf("%f",&f);
-	printf("The temprature in C is %.2f. ", (f-32)*5/9);
+	printf("The temprature in C is %.2f.", (f-32)*5/9);
 	return 0;
 }

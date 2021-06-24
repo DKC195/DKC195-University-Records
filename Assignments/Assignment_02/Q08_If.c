@@ -11,7 +11,7 @@ Using Else If */
 int main() {
 	float p;
 	int d;
-	printf("What is your percentage:\n");
+	printf("What is your percentage: ");
 	scanf("%f",&p);
 	d=p/10;
 	if(d>7) printf("Your division is Distinction");

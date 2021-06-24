@@ -4,7 +4,7 @@ display the distance in meters, feet, inches and centimeters.*/
 
 int main() {
 	float km;
-	printf("Enter the distance in KM:\n");
+	printf("Enter the distance in KM: ");
 	scanf("%f",&km);
 	printf("The distance in meters is %.2f m.", km*1000);
 	printf("\nThe distance in feet is %.2f ft.", km*3280.84);

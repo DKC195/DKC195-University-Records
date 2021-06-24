@@ -6,11 +6,11 @@ But for three sides to form a triangle, the sum of two sides must be greater tha
 
 int main() {
 	int a,b,c,s,A,h;
-	printf("Length of First Side:\n");
+	printf("Length of First Side: ");
 	scanf("%d",&a);
-	printf("Length of Second Side:\n");
+	printf("Length of Second Side: ");
 	scanf("%d",&b);
-	printf("Length of Third Side:\n");
+	printf("Length of Third Side: ");
 	scanf("%d",&c);
 	s=(a+b+c)/2;
 	h=(s*(s-a)*(s-b)*(s-c));

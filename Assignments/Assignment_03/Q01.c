@@ -3,6 +3,6 @@
 
 int main() {
   int x;
-  for (x=25; x<151; x++) printf("%d\n", x);
+  for (x=25; x<151; x++) printf("%d", x);
   return 1;
 }

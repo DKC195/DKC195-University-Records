@@ -5,7 +5,7 @@ int fac(int);
 
 int main() {
   int n;
-  printf("Enter a number:");
+  printf("Enter a number: ");
   scanf("%d", &n);
   printf("The factorial of %d is %d.", n, fac(n));
   return 0;
