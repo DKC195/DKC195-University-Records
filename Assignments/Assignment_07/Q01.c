@@ -2,12 +2,12 @@
 #include <stdio.h>
 
 int main() {
-  int a[10], b=0;
+  float a[10], b=0;
   for (int i=0; i<10; i++) {
     printf("Enter a number: ");
-    scanf("%d", &a[i]);
+    scanf("%f", &a[i]);
     b=b+a[i];
   }
-  printf("The sum and average is %d and %.2f", b, (float) b/10);
+  printf("The sum and average is %.1f and %.2f", b, b/10);
   return 0;
 }
