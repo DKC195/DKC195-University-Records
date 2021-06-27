@@ -2,8 +2,11 @@
 #include <stdio.h>
 
 int main() {
-  int a[10],min=0;
-  for (int i=0; i<10; i++) {
+  int a[10],min;
+  printf("Enter a number: ");
+  scanf("%d", &a[0]);
+  min=a[0];
+  for (int i=1; i<10; i++) {
     printf("Enter a number: ");
     scanf("%d", &a[i]);
     if (min>a[i]) min=a[i];
