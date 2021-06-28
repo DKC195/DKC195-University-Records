@@ -1,4 +1,4 @@
-//WAP to read 10 elements in an array and count the occurance of odd and even.
+//WAP to read 10 elements in an array and count the occurence of odd and even.
 #include <stdio.h>
 
 int main() {

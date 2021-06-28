@@ -1,4 +1,4 @@
-//WAP to seperate odd and even integers in seperate arrays.
+//WAP to separate odd and even integers in separate arrays.
 #include <stdio.h>
 
 int main() {
@@ -19,12 +19,8 @@ int main() {
     }
   }
   printf("The even numbers are %d, ", e[0]);
-  for (int i=1; i<a; i++) {
-    printf("%d, ", e[i]);
-  }
+  for (int i=1; i<a; i++) printf("%d, ", e[i]);
   printf("\nThe odd numbers are %d, ", o[0]);
-  for (int i=1; i<b; i++) {
-    printf("%d, ", o[i]);
-  }
+  for (int i=1; i<b; i++) printf("%d, ", o[i]);
   return 0;
 }

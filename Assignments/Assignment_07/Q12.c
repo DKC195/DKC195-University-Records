@@ -32,6 +32,15 @@ int main() {
     a[n-1]=x;
   }
   printf("The new order is ");
-  for (int i=0; i<10; i++) printf("%d, ", a[i]);
+  for (int i=0; i<10; i++) {
+    for (int j=i; j<10; j++) {
+      if (a[i]>a[j]) {
+        min=a[j];
+        a[j]=a[i];
+        a[i]=min;
+      }
+    }
+    printf("%d, ", a[i]);
+  }
   return 0;
 }
