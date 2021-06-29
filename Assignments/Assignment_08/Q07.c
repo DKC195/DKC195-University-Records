@@ -1,8 +1,6 @@
 //WAP to add two given matrix (3x3) and print the reaultant matrix.
 #include <stdio.h>
 
-int mat();
-
 int main() {
   int a[3][3],b[3][3],c[3][3];
   printf("For Matrix A\n");
