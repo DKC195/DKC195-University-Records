@@ -1,6 +1,5 @@
 //WAP to find sum of digits of a given number using recursion.
 #include <stdio.h>
-
 int sum(int, int);
 
 int main() {

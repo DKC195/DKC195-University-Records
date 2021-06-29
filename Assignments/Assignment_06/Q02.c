@@ -1,6 +1,5 @@
 //WAP to find the product of two given number.
 #include <stdio.h>
-
 int product(int, int);
 
 int main() {

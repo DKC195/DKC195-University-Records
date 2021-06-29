@@ -1,6 +1,5 @@
 //WAP to find the HCF of two given number using functions
 #include <stdio.h>
-
 int HCF(int, int);
 
 int main() {

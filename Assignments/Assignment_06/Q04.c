@@ -1,6 +1,5 @@
 //WAP to find reverse of any number using recursion.
 #include <stdio.h>
-
 int rev(int);
 
 int main() {
