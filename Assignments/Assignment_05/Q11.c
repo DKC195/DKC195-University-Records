@@ -1,6 +1,5 @@
 //WAP to convert decimal into binary number using function.
 #include <stdio.h>
-
 int d2b(int);
 
 int main() {

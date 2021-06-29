@@ -1,6 +1,5 @@
 //WAP to find the value of one number raised to the power of another using function.
 #include <stdio.h>
-
 int raise(int, int);
 
 int main() {

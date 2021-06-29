@@ -1,6 +1,5 @@
 // WAP to check a given number is even or odd using function.
 #include <stdio.h>
-
 int oe(int);
 
 int main() {

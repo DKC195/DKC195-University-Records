@@ -1,6 +1,5 @@
 //WAP to reverse a given number using function.
 #include <stdio.h>
-
 int rev(int x);
 
 int main() {

@@ -1,6 +1,5 @@
 //WAP to read a +ve integer and find the sum of digits using function.
 #include <stdio.h>
-
 int sum(int x, int y);
 
 int main() {

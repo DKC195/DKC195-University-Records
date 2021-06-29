@@ -1,6 +1,5 @@
 //WAP to convert a given lowercase to uppercase using function.
 #include <stdio.h>
-
 char l2u(char);
 
 int main() {
