@@ -4,11 +4,9 @@
 int main() {
   char string[20];
   int i=0;
-  printf("Enter a letter: ");
+  printf("Enter a string: ");
   gets(string);
-  do {
-    i++;
-  } while(string[i]!='\0');
+  while(string[i]!='\0') i++;
   printf("The length of string is %d.", i);
   return 0;
 }
