@@ -1,4 +1,4 @@
-//WAP to declare variable of all Data Types, read the values and display them.
+// WAP to declare variable of all Data Types, read the values and display them.
 #include <stdio.h>
 
 int main() {

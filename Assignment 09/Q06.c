@@ -1,4 +1,4 @@
-//WAP to convert all given character in a given string to uppercase.
+// WAP to convert all given character in a given string to uppercase.
 #include <stdio.h>
 #include <string.h>
 

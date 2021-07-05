@@ -1,4 +1,4 @@
-//WAP to count the number of words in a given line of text.
+// WAP to count the number of words in a given line of text.
 #include <stdio.h>
 
 int main() {

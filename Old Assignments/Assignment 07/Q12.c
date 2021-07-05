@@ -1,4 +1,4 @@
-//WAP insert new value in the array. (sorted list)
+// WAP insert new value in the array. (sorted list)
 #include <stdio.h>
 
 int main() {

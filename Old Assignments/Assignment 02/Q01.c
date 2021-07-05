@@ -1,4 +1,4 @@
-//WAP to read 3 numbers and find the middle number.
+// WAP to read 3 numbers and find the middle number.
 #include <stdio.h>
 
 int main() {

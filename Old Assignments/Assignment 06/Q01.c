@@ -1,4 +1,4 @@
-//WAP to find power of any number using recursion.
+// WAP to find power of any number using recursion.
 #include <stdio.h>
 int power(int, int);
 

@@ -1,4 +1,4 @@
-//WAP to find the square of any number using the function.
+// WAP to find the square of any number using the function.
 #include <stdio.h>
 float sq(float);
 

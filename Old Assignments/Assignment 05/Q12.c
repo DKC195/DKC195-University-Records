@@ -1,4 +1,4 @@
-//WAP to check whether a number is prime or not using function.
+// WAP to check whether a number is prime or not using function.
 #include <stdio.h>
 int prime(int);
 

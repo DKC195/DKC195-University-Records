@@ -1,4 +1,4 @@
-//WAP to read 10 elements in an array and sort them in descending order.
+// WAP to read 10 elements in an array and sort them in descending order.
 #include <stdio.h>
 
 int main() {

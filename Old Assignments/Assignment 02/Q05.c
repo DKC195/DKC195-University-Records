@@ -1,6 +1,6 @@
-/*WAP to calculate the area of a triangle given the length of its sides.
+/* WAP to calculate the area of a triangle given the length of its sides.
 But for three sides to form a triangle, the sum of two sides must be greater than the third.
-(hints: , area=  , where a,b,c are length of 3 sides.*/
+(hints: , area=  , where a,b,c are length of 3 sides. */
 #include <stdio.h>
 #include <math.h>
 

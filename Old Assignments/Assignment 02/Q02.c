@@ -1,4 +1,4 @@
-//WAP to read an alphabet and convert it into Uppercase if it is lowercase and vice versa.
+// WAP to read an alphabet and convert it into Uppercase if it is lowercase and vice versa.
 #include <stdio.h>
 
 int main() {

@@ -1,4 +1,4 @@
-//WAP to read 10 elements in an array and copy all elements in reverse order in another array.
+// WAP to read 10 elements in an array and copy all elements in reverse order in another array.
 #include <stdio.h>
 
 int main() {

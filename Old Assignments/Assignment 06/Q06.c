@@ -1,4 +1,4 @@
-//WAP to find factorial of any number using recursion.
+// WAP to find factorial of any number using recursion.
 #include <stdio.h>
 int fac(int);
 

@@ -1,4 +1,4 @@
-//WAP to find the length of a given string without using a library function.
+// WAP to find the length of a given string without using a library function.
 #include <stdio.h>
 
 int main() {

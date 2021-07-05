@@ -1,4 +1,4 @@
-//WAP to find the factorial of a given number using function.
+// WAP to find the factorial of a given number using function.
 #include <stdio.h>
 int fac(int i);
 

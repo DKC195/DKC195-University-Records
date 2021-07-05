@@ -1,4 +1,4 @@
-//WAP to find the sum of all numbers between 1 to n using recursion.
+// WAP to find the sum of all numbers between 1 to n using recursion.
 #include <stdio.h>
 int sum(int);
 

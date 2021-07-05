@@ -1,4 +1,4 @@
-//WAP to read 10 elements in an array and search for a particular number among the array list.
+// WAP to read 10 elements in an array and search for a particular number among the array list.
 #include <stdio.h>
 
 int main() {

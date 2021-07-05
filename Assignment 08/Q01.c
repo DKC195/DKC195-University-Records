@@ -1,4 +1,4 @@
-//WAP to read elements in an array (3x3) and calculate the sum and average of all elements.
+// WAP to read elements in an array (3x3) and calculate the sum and average of all elements.
 #include <stdio.h>
 
 int main() {

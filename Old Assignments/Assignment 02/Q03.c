@@ -1,4 +1,4 @@
-//WAP to read a year and check whether it is leap year or not. (Note: A year is leap year if it is divisible only by 4 or by 4,100 and 400)
+// WAP to read a year and check whether it is leap year or not. (Note: A year is leap year if it is divisible only by 4 or by 4,100 and 400)
 #include <stdio.h>
 
 int main() {

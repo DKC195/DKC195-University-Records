@@ -1,4 +1,4 @@
-//WAP to find the number of vowels, consonants, digits and white spaces in a given string.
+// WAP to find the number of vowels, consonants, digits and white spaces in a given string.
 #include <stdio.h>
 
 int main() {

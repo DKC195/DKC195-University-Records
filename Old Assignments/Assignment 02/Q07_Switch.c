@@ -1,5 +1,5 @@
-/*WAP to read two numbers and an arithmetic operator and perform the corresponding arithmetic operation on those numbers. (Using both else if and switch ).
- Using Switch*/
+/* WAP to read two numbers and an arithmetic operator and perform the corresponding arithmetic operation on those numbers. (Using both else if and switch ).
+ Using Switch */
 #include<stdio.h>
 
 int main(){

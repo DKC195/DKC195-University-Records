@@ -1,4 +1,4 @@
-/*WAP to calculate electricity bill for domestic consumers.
+/* WAP to calculate electricity bill for domestic consumers.
       Units           Charge/Unit
       0-20              3.00
      21-30              7.00
@@ -6,7 +6,7 @@
      51-150            10.00
     151 – 250          11.00
     215 – 400          12.00
-    Above 400          13.00*/
+    Above 400          13.00 */
 #include <stdio.h>
 
 int main() {

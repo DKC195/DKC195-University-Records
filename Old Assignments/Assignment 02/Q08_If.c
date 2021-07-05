@@ -1,4 +1,4 @@
-/*WAP to read percentage scored by a student and print the corresponding division. (Using both else if and switch ).
+/* WAP to read percentage scored by a student and print the corresponding division. (Using both else if and switch ).
 	Percent		 Division
  		>80  		Distinction
 	60-70		First Division

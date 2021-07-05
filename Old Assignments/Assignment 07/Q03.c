@@ -1,4 +1,4 @@
-//WAP to read 10 elements in an array and copy all the elements to another array.
+// WAP to read 10 elements in an array and copy all the elements to another array.
 #include <stdio.h>
 
 int main() {

@@ -1,4 +1,4 @@
-//WAP to count the frequency of each element of array.
+// WAP to count the frequency of each element of array.
 #include <stdio.h>
 
 int main() {

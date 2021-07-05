@@ -1,4 +1,4 @@
-//WAP to display Fibonacci series upto n terms.
+// WAP to display Fibonacci series upto n terms.
 #include <stdio.h>
 
 int main() {

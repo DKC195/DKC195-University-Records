@@ -1,5 +1,5 @@
-/*WAP to read values from user and find the sum of given numbers until the user enters 0
-and also finds its average.*/
+/* WAP to read values from user and find the sum of given numbers until the user enters 0
+and also finds its average. */
 #include <stdio.h>
 
 int main() {

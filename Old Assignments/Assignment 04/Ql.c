@@ -1,4 +1,4 @@
-/*WAP to generate the following output:
+/* WAP to generate the following output:
 1
 26
 3710

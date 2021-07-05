@@ -1,4 +1,4 @@
-//WAP to read two numbers  and find its HCF and LCM.
+// WAP to read two numbers  and find its HCF and LCM.
 #include <stdio.h>
 
 int main() {

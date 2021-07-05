@@ -1,4 +1,4 @@
-//WAP to print odd numbers from 200 to 250.
+// WAP to print odd numbers from 200 to 250.
 #include <stdio.h>
 
 int main() {

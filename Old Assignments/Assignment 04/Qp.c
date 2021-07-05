@@ -1,4 +1,4 @@
-/*WAP to generate the following output:
+/* WAP to generate the following output:
 10101
 01010
 10101
