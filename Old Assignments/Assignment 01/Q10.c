@@ -1,4 +1,4 @@
-//WAP to read time into the second and convert it into hour, minute and second.
+// WAP to read time into the second and convert it into hour, minute and second.
 #include <stdio.h>
 
 int main() {

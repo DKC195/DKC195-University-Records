@@ -1,4 +1,4 @@
-//WAP to find the maximum number in an array (3x3) and replace all the elements with the maximum.
+// WAP to find the maximum number in an array (3x3) and replace all the elements with the maximum.
 #include <stdio.h>
 
 int main() {

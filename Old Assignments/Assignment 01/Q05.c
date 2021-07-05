@@ -1,5 +1,5 @@
-/*The length and width of a rectangle and radius of a circle or input through the keyboard.
-WAP to calculate the area and perimeter of the rectangle and the area and circumference of the circle.*/
+/* The length and width of a rectangle and radius of a circle or input through the keyboard.
+WAP to calculate the area and perimeter of the rectangle and the area and circumference of the circle. */
 #include <stdio.h>
 #define pi 3.14
 

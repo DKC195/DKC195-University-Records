@@ -1,4 +1,4 @@
-//WAP to multiply two given matrices (3x3) and print the resultant matrix.
+// WAP to multiply two given matrices (3x3) and print the resultant matrix.
 #include <stdio.h>
 
 int main() {

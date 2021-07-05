@@ -1,4 +1,4 @@
-//WAP to read elements in an array(3x5) and calculate the sum of rows.
+// WAP to read elements in an array(3x5) and calculate the sum of rows.
 #include <stdio.h>
 
 int main() {

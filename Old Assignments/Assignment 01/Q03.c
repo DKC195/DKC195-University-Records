@@ -1,5 +1,5 @@
-/*WAP to read marks obtained by a student in five subjects.
-Read the full max of each subject as well. Print the percentage score by the student.*/
+/* WAP to read marks obtained by a student in five subjects.
+Read the full max of each subject as well. Print the percentage score by the student. */
 #include <stdio.h>
 
 int main() {

@@ -1,4 +1,4 @@
-//WAP to read 10 elements in an array and find the maximum.
+// WAP to read 10 elements in an array and find the maximum.
 #include <stdio.h>
 
 int main() {

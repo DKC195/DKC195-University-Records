@@ -1,4 +1,4 @@
-//WAP to print numbers from 25 to 150.
+// WAP to print numbers from 25 to 150.
 #include <stdio.h>
 
 int main() {

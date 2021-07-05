@@ -1,4 +1,4 @@
-//WAP to compare two given strings without using library functions.
+// WAP to compare two given strings without using library functions.
 #include <stdio.h>
 
 int main() {

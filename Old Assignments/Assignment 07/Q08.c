@@ -1,4 +1,4 @@
-//WAP to read 10 elements in an array and find the minimum.
+// WAP to read 10 elements in an array and find the minimum.
 #include <stdio.h>
 
 int main() {

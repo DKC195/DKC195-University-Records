@@ -1,4 +1,4 @@
-//WAP to reverse a given string without using a library function.
+// WAP to reverse a given string without using a library function.
 #include <stdio.h>
 
 int main() {

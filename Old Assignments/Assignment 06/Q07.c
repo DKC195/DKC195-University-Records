@@ -1,4 +1,4 @@
-//WAP to generate nth fibonacci term using recursion.
+// WAP to generate nth fibonacci term using recursion.
 #include <stdio.h>
 int fibo(int);
 

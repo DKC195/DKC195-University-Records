@@ -1,4 +1,4 @@
-//WAP to find the sum of series. 1+2/2^2+3/3^3=4/4^4+......+n/n^n
+// WAP to find the sum of series. 1+2/2^2+3/3^3=4/4^4+......+n/n^n
 #include <stdio.h>
 
 int main() {

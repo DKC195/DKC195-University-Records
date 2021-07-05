@@ -1,4 +1,4 @@
-//WAP to display multiplication table of 5 from 1 to 10.
+// WAP to display multiplication table of 5 from 1 to 10.
 #include <stdio.h>
 
 int main() {

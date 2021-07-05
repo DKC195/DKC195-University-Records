@@ -1,4 +1,4 @@
-//WAP to read temperature in Fahrenheit and convert it into centigrade. C=5/9(F-32)
+// WAP to read temperature in Fahrenheit and convert it into centigrade. C=5/9(F-32)
 #include <stdio.h>
 
 int main() {

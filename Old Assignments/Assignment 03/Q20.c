@@ -1,4 +1,4 @@
-//WAP to dispaly the n terms of square natural number and their sum. (1 4 9 16 25 ... n^2)
+// WAP to dispaly the n terms of square natural number and their sum. (1 4 9 16 25 ... n^2)
 #include <stdio.h>
 
 int main() {

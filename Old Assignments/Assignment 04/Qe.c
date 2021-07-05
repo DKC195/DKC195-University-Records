@@ -1,4 +1,4 @@
-/*WAP to generate the following output:
+/* WAP to generate the following output:
     *
    ***
   *****

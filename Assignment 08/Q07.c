@@ -1,4 +1,4 @@
-//WAP to add two given matrix (3x3) and print the reaultant matrix.
+// WAP to add two given matrix (3x3) and print the reaultant matrix.
 #include <stdio.h>
 
 int main() {

@@ -1,4 +1,4 @@
-//WAP to check to whether a given word is palindrome or not.
+// WAP to check to whether a given word is palindrome or not.
 #include <stdio.h>
 
 int main() {

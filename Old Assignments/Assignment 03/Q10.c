@@ -1,4 +1,4 @@
-//WAP to read n different numbers and display the sum.
+// WAP to read n different numbers and display the sum.
 #include <stdio.h>
 
 int main() {

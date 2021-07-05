@@ -1,4 +1,4 @@
-//WAP to read two numbers and swap their values.
+// WAP to read two numbers and swap their values.
 #include <stdio.h>
 
 int main() {

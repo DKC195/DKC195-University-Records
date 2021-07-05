@@ -1,4 +1,4 @@
-//WAP to read a number and reverse it. (For ex. 12345 should be 54321)
+// WAP to read a number and reverse it. (For ex. 12345 should be 54321)
 #include <stdio.h>
 
 int main() {

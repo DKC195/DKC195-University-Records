@@ -1,4 +1,4 @@
-//WAP to sort n number of stings in lexicographical order (dictionary order).
+// WAP to sort n number of stings in lexicographical order (dictionary order).
 #include <stdio.h>
 #include <string.h>
 

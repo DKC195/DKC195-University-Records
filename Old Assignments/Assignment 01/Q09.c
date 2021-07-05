@@ -1,4 +1,4 @@
-//WAP to read two numbers and find the quotient and reminder.
+// WAP to read two numbers and find the quotient and reminder.
 #include <stdio.h>
 
 int main() {

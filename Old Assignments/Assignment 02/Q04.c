@@ -1,4 +1,4 @@
-//WAP to find all possible roots of a quadratic equation
+// WAP to find all possible roots of a quadratic equation
 #include <stdio.h>
 #include <math.h>
 
