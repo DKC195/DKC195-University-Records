@@ -4,10 +4,9 @@
 struct complex {
   int real;
   int img;
-};
+} p[2];
 
 int main() {
-  struct complex p[2];
   for (int i = 0; i<2; i++) {
     printf("Number %c\n", 65+i);
     printf("Enter the real part of number: ");
