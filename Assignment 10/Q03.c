@@ -5,10 +5,9 @@ struct date {
   int day;
   int month;
   int year;
-};
+} d[2];
 
 int main() {
-  struct date d[2];
   int year=0,month=0,day=0;
   for (int i=0; i<2; i++) {
     printf("\nNumber %c\n", 65+i);

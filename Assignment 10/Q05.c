@@ -4,10 +4,9 @@
 struct dis {
   int inch;
   int feet;
-};
+} d[2];
 
 int main() {
-  struct dis d[2];
   int feet=0,inch=0;
   for (int i=0; i<2; i++) {
     printf("\nNumber %c\n", 65+i);
