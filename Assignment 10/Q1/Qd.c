@@ -21,12 +21,7 @@ int main() {
     printf("Enter %s's Price: ", p[i].name);
     scanf("%d", &p[i].price);
   }
-  printf("\n\nItem Details:");
-  for (int i=0; i<n; i++) {
-    printf("Item %d\n", i+1);
-    printf("Code: \t %d \n", p[i].code);
-    printf("Name: \t %s \n", p[i].name);
-    printf("Price: \t %d \n\n", p[i].price);
-  }
+  printf("\n\nItem Details:\n S.No.\t Code\t Name\t Price\n");
+  for (int i=0; i<n; i++) printf(" %d \t %d \t %s \t %d \n", i+1, p[i].code, p[i].name, p[i].price);
   return 0;
 }

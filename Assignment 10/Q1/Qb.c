@@ -33,16 +33,7 @@ int main() {
     printf("Enter %s's Salary: ", p[i].name);
     scanf("%d", &p[i].salary);
   }
-  printf("\n\nEmployees Details:");
-  for (int i=0; i<n; i++) {
-    printf("Employee %d\n", i+1);
-    printf("ID: \t\t\t %d \n", p[i].id);
-    printf("Name: \t\t\t %s \n", p[i].name);
-    printf("Address: \t\t %s \n", p[i].address);
-    printf("Contact: \t\t %d \n", p[i].contact);
-    printf("DOB (YYYY/MM/DD): \t %d \n", p[i].dob);
-    printf("Designation: \t\t %s \n", p[i].designation);
-    printf("Salary: \t\t %d \n\n", p[i].salary);
-  }
+  printf("\n\nEmployees Details:\n S.No. ID Name \t Address Contact DOB \t Designation \t Salary \n");
+  for (int i=0; i<n; i++) printf(" %3d   %d  %s \t %s \t %d \t %d \t %s \t\t %d \n", i+1, p[i].id, p[i].name, p[i].address, p[i].contact, p[i].dob, p[i].designation, p[i].salary);
   return 0;
 }

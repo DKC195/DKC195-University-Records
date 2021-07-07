@@ -27,14 +27,7 @@ int main() {
     printf("Enter %s's No. of Pages: ", p[i].title);
     scanf("%d", &p[i].pages);
   }
-  printf("\n\nBooks Details:");
-  for (int i=0; i<n; i++) {
-    printf("Book %d\n", i+1);
-    printf("ISBN: \t\t %d \n", p[i].isbn);
-    printf("Title: \t\t %s \n", p[i].title);
-    printf("Author: \t %s \n", p[i].author);
-    printf("Category: \t %s \n", p[i].category);
-    printf("Pages: \t\t %d \n\n", p[i].pages);
-  }
+  printf("\n\nBooks Details:\n S.No. \tISBN \t Title \t Author \t Category \t Pages\n");
+  for (int i=0; i<n; i++) printf(" %d\t %d\t %s\t %s\t\t %s\t\t %d \n", i+1, p[i].isbn, p[i].title, p[i].author, p[i].category, p[i].pages);
   return 0;
 }
