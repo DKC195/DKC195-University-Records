@@ -24,14 +24,9 @@ int main() {
     scanf("%d", &p[i].salary);
   }
   printf("\n\nFilter: Not Living in DHARAN\n");
+  printf("S.No. \t ID \t Name \t Addeess \t Salary\n");
   for (int i=0; i<10; i++) {
-    if (strcmp(p[i].address,"DHARAN")) {
-      printf("Employee %d\n", i+1);
-      printf("Employee ID: \t %d \n", p[i].empid);
-      printf("Name: \t\t %s \n", p[i].name);
-      printf("Address: \t %s \n", p[i].address);
-      printf("salary: \t %d \n\n", p[i].salary);
-    }
+    if (strcmp(p[i].address,"DHARAN")) printf(" %d \t %d \t %s \t %s \t %d\n", i+1, p[i].empid, p[i].name, p[i].address, p[i].salary);
   }
   return 0;
 }

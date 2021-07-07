@@ -27,14 +27,7 @@ int main() {
     printf("Enter %s's Gender (f/m): ", p[i].name);
     scanf("%s", p[i].gender);
   }
-  printf("\n\nAuthor Details:");
-  for (int i=0; i<n; i++) {
-    printf("Author %d\n", i+1);
-    printf("ID: \t\t %d \n", p[i].id);
-    printf("Name: \t\t %s \n", p[i].name);
-    printf("Contact: \t %d \n", p[i].contact);
-    printf("Email: \t\t %s \n", p[i].email);
-    printf("Gender: \t %s \n\n", p[i].gender);
-  }
+  printf("\n\nAuthor Details:\n S.No. ID    Name \t  Contact\t Email\t Gender");
+  for (int i=0; i<n; i++) printf(" %d %d\t %s\t %d\t %s\t %s \n", i+1, p[i].id, p[i].name, p[i].contact, p[i].email, p[i].gender);
   return 0;
 }

@@ -27,15 +27,7 @@ int main() {
     printf("Enter %s's the Balance: ", p[i].name);
     scanf("%d", &p[i].bal);
   }
-  printf("\n\nAccount Details");
-  for (int i=0; i<n; i++) {
-    printf("Account %d\n", i+1);
-    printf("ID: \t\t %d \n", p[i].id);
-    printf("Name: \t\t %s \n", p[i].name);
-    printf("Account No: \t %d \n", p[i].acno);
-    printf("Account Type: \t %s \n", p[i].actype);
-    printf("Balance: \t %d \n", p[i].bal);
-  }
-
+  printf("\n\nAccount Details:\nID \tName \tAccount No. \tAccount Type \tBalance \n");
+  for (int i=0; i<n; i++) printf("%d \t%d \t%s \t%d \t\t%s \t\t%d \n", i+1, p[i].id, p[i].name, p[i].acno, p[i].actype, p[i].bal);
   return 0;
 }

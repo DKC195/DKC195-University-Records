@@ -24,13 +24,8 @@ int main() {
     printf("Enter %s's Contact: ", p[i].name);
     scanf("%d", &p[i].contact);
   }
-  printf("\n\nEersonnels Details:");
-  for (int i=0; i<n; i++) {
-    printf("Person %d\n", i+1);
-    printf("Name: \t\t %s \n", p[i].name);
-    printf("Age: \t\t %d \n", p[i].age);
-    printf("Address: \t %s \n", p[i].address);
-    printf("Contact: \t %d \n\n", p[i].contact);
-  }
+  printf("\n\nPersonnels Details:\n");
+  printf("S.No. \t Name \t Age \t Address \t Contact\n");
+  for (int i=0; i<n; i++) printf(" %d \t %s \t %d \t %s \t\t %d \n", i+1, p[i].name, p[i].age, p[i].address, p[i].contact);
   return 0;
 }
