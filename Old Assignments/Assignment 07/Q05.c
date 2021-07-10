@@ -18,9 +18,9 @@ int main() {
       b++;
     }
   }
-  printf("The even numbers are %d, ", e[0]);
-  for (int i=1; i<a; i++) printf("%d, ", e[i]);
-  printf("\nThe odd numbers are %d, ", o[0]);
-  for (int i=1; i<b; i++) printf("%d, ", o[i]);
+  printf("The even numbers are ");
+  for (int i=0; i<a; i++) printf("%d, ", e[i]);
+  printf("\nThe odd numbers are");
+  for (int i=0; i<b; i++) printf("%d, ", o[i]);
   return 0;
 }
