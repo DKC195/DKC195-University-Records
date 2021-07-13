@@ -7,6 +7,6 @@ int main() {
   scanf("%d", &n);
   z=n;
   for (n; n>0; n=n/10) x=x*10+n%10;
-  x==z ? printf("The number is palindrome.\n"):printf("The number is not palindrome.\n");
+  x == z ? printf("The number is palindrome.\n"):printf("The number is not palindrome.\n");
   return 0;
 }

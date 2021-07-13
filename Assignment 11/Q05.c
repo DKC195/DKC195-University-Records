@@ -21,12 +21,12 @@ int main() {
     printf("Enter the hour: ");
     scanf("%d", &p[i].hr);
   }
-  if (p[1].hr<p[0].hr) p[2]=timediff(p[0], p[1]);
-  else if (p[1].hr==p[0].hr) {
-    if (p[1].min<p[0].min) p[2]=timediff(p[0], p[1]);
-    else if (p[1].min==p[0].min) {
-      if (p[1].sec<=p[0].sec) p[2]=timediff(p[0], p[1]);
-      else p[2]=timediff(p[1], p[0]);
+  if (p[1].hr<p[0].hr) p[2] = timediff(p[0], p[1]);
+  else if (p[1].hr == p[0].hr) {
+    if (p[1].min<p[0].min) p[2] = timediff(p[0], p[1]);
+    else if (p[1].min == p[0].min) {
+      if (p[1].sec<=p[0].sec) p[2] = timediff(p[0], p[1]);
+      else p[2] = timediff(p[1], p[0]);
     }
   }
   else p[2]=timediff(p[0], p[1]);

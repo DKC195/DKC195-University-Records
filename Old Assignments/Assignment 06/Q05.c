@@ -8,11 +8,11 @@ int main() {
   scanf("%d", &x);
   printf("Enter another number: ");
   scanf("%d", &y);
-  printf("The sum is %d.", sum(x,y));
+  printf("The sum is %d.", sum(x, y));
   return 0;
 }
 
 int sum(int a, int b) {
-  if(b==0) return 1;
-  return a+sum(1,b-1);
+  if(b == 0) return 1;
+  return a+sum(1, b-1);
 }

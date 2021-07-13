@@ -7,7 +7,7 @@ struct complex {
 } p[2];
 
 int main() {
-  for (int i = 0; i<2; i++) {
+  for (int i=0; i<2; i++) {
     printf("Number %c\n", 65+i);
     printf("Enter the real part of number: ");
     scanf("%d", &p[i].real);

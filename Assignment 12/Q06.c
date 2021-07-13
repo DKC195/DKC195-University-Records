@@ -10,11 +10,11 @@ int main() {
   printf("Enter the number you are searching for: ");
   scanf("%d", &n);
   for (int j=0; j<10; j++) {
-    if (n==*(a+j)) {
+    if (n == *(a+j)) {
       printf("The number %d is a[%d].\n", n, j);
       t=1;
     }
-    else if (t==0) printf("The number is not on the array");
+    else if (t == 0) printf("The number is not on the array");
   }
   return 0;
 }

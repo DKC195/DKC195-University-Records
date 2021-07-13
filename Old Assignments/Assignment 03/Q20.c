@@ -8,9 +8,9 @@ int main() {
   if (n<1) printf("The Number is not natural.");
   else {
     for (int i=1; i<n+1; i++) {
-      x=i*i;
+      x = i*i;
       printf("The square of %d is %d.", i, x);
-      s=s+x;
+      s = s+x;
     }
   }
   printf("The sum of square is %d.", x);

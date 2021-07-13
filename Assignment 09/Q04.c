@@ -8,11 +8,11 @@ int main() {
   gets(str1);
   printf("Enter another string: ");
   gets(str2);
-  while(str1[n]!='\0') n++;
-  while(str2[n]!='\0') m++;
+  while(str1[n] != '\0') n++;
+  while(str2[n] != '\0') m++;
   for (int i=0; i<n+m; i++) {
-    str3[i]=str1[i];
-    str3[i+n]=str2[i];
+    str3[i] = str1[i];
+    str3[i+n] = str2[i];
   }
   printf("The concatenate of the strings is %s.", str3);
   return 0;

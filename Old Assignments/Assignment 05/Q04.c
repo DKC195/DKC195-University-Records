@@ -8,7 +8,7 @@ int main() {
     printf("Enter a number (0 to stop):");
     scanf("%d", &a);
     su=sum(a,su);
-    if (a==0) {
+    if (a == 0) {
       printf("The sum is %d.", su);
       break;
     }

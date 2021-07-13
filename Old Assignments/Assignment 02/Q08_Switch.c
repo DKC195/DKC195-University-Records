@@ -12,8 +12,8 @@ int main() {
 	float p;
 	int d;
 	printf("What is your percentage: ");
-	scanf("%f",&p);
-	d=p/10;
+	scanf("%f", &p);
+	d = p/10;
 	switch(d) {
 		case 10:
 		case 9:

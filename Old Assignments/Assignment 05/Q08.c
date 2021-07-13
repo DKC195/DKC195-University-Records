@@ -15,7 +15,7 @@ int main() {
 int HCF(int x, int y) {
   int z;
   for(int i=1; i<x+1; i++)
-    if (x%i==0)
-      if (y%i==0) z=i;
+    if (x%i == 0)
+      if (y%i == 0) z=i;
   return z;
 }

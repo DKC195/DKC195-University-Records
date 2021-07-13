@@ -4,7 +4,7 @@
 int main() {
 	float f;
 	printf("Enter the temprature in F: ");
-	scanf("%f",&f);
+	scanf("%f", &f);
 	printf("The temprature in C is %.2f.", (f-32)*5/9);
 	return 0;
 }

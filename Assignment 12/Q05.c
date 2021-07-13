@@ -9,12 +9,12 @@ int main() {
   for (int i=0; i<n; i++) {
     printf("Enter a number: ");
     scanf("%d", &m);
-    if(m%2==0) {
+    if(m%2 == 0) {
       *(e+a)=m;
       a++;
     }
     else {
-      *(o+b)=m;
+      *(o+b) = m;
       b++;
     }
   }

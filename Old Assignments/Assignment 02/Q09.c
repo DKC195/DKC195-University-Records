@@ -25,31 +25,31 @@ int main() {
   else x=7;
   switch(x) {
     case 0:
-      diff=units-400;
-      units=units-diff;
-      calc=diff*13;
+      diff = units-400;
+      units = units-diff;
+      calc = diff*13;
     case 1:
-      diff=units-250;
-      units=units-diff;
-      calc=calc+diff*12;
+      diff = units-250;
+      units = units-diff;
+      calc = calc+diff*12;
     case 2:
-      diff=units-150;
-      units=units-diff;
-      calc=calc+units*11;
+      diff = units-150;
+      units = units-diff;
+      calc = calc+units*11;
     case 3:
-      diff=units-50;
-      units=units-diff;
-      calc=calc+units*10;
+      diff = units-50;
+      units = units-diff;
+      calc = calc+units*10;
     case 4:
-      diff=units-30;
-      units=units-diff;
-      calc=calc+units*8.5;
+      diff = units-30;
+      units = units-diff;
+      calc = calc+units*8.5;
     case 5:
-      diff=units-20;
-      units=units-diff;
-      calc=calc+units*7;
+      diff = units-20;
+      units = units-diff;
+      calc = calc+units*7;
     case 6:
-      calc=calc+units*3;
+      calc = calc+units*3;
       printf("Your bill is %.2f",calc);
     break;
     default:

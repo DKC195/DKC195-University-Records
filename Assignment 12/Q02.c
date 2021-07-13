@@ -6,7 +6,7 @@ int main() {
   for (int i=0; i<10; i++) {
     printf("Ender a number: ");
     scanf("%d", (a+i));
-    (*(a+i)%2==0) ? e++ : o++;
+    (*(a+i)%2 == 0) ? e++ : o++;
   }
   printf("The no. of even numbers are %d and odd numbers are %d.", e, o);
   return 0;

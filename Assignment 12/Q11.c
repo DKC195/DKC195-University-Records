@@ -11,9 +11,9 @@ int main() {
   for (int i=0; i<10; i++) {
     for (int j=i; j<10; j++) {
       if (*(a+i)<*(a+j)) {
-        max=*(a+j);
-        *(a+j)=*(a+i);
-        *(a+i)=max;
+        max = *(a+j);
+        *(a+j) = *(a+i);
+        *(a+i) = max;
       }
     }
     printf("%d, ", *(a+i));

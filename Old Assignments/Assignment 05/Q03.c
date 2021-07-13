@@ -11,5 +11,5 @@ int main() {
 }
 
 int oe(int x){
-  (x%2==0) ? printf("%d is even.", x):printf("%d is odd.", x);
+  (x%2 == 0) ? printf("%d is even.", x):printf("%d is odd.", x);
 }

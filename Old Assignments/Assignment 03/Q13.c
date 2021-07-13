@@ -7,8 +7,8 @@ int main() {
   scanf("%f", &n);
   for (int i=1; i<n+1; i++) {
     y=1;
-    for(int j=0; j<i; j++) y=y*i;
-    x=x+(i/y);
+    for(int j=0; j<i; j++) y = y*i;
+    x = x+(i/y);
   }
   printf("The sum of the series is %f. ", x);
   return 0;

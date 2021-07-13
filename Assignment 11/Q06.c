@@ -16,12 +16,12 @@ int main() {
     scanf("%d", &p[i].roll);
   }
   for (int i=0; i<10; i++) {
-    q[i]=p[i];
+    q[i] = p[i];
     for (int j=i; j<10; j++) {
       if (q[i].roll>p[j].roll) {
-        tmp=q[i];
-        q[i]=p[j];
-        p[j]=tmp;
+        tmp = q[i];
+        q[i] = p[j];
+        p[j] = tmp;
       }
     }
   }

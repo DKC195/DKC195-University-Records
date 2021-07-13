@@ -6,8 +6,8 @@ int main() {
   int i=0;
   printf("Enter a string: ");
   gets(string);
-  while(string[i]!='\0') {
-    string1[i]=string[i];
+  while(string[i] != '\0') {
+    string1[i] = string[i];
     i++;
   }
   printf("The copied string is %s.", string1);

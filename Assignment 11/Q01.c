@@ -24,7 +24,7 @@ int main() {
     for (int j=0; j<5; j++) {
       printf("Enter marks on Subject %c: ", 65+j);
       scanf("%d", &p[i].mark.sub[j]);
-      p[i].total=p[i].total+p[i].mark.sub[j];
+      p[i].total = p[i].total+p[i].mark.sub[j];
     }
   }
   for (int i=0; i<10; i++) {

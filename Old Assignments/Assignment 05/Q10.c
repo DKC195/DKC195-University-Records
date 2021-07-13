@@ -14,6 +14,6 @@ int main() {
 
 int raise(int x, int y){
   int z=1;
-  for (int i=y; i>0; i--) z=z*x;
+  for (int i=y; i>0; i--) z = z*x;
   return z;
 }

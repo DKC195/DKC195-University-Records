@@ -8,11 +8,11 @@ int main() {
   scanf("%d", &n);
   printf("Enter second: ");
   scanf("%d", &p);
-  printf("The product is %d.",product(n,p));
+  printf("The product is %d.",product(n, p));
   return 0;
 }
 
 int product(int x, int y) {
-  if (y==1) return x;
-  else return x+product(x,y-1);
+  if (y == 1) return x;
+  else return x+product(x, y-1);
 }

@@ -12,11 +12,11 @@ int main() {
   printf("The transpose of matrix is :\n");
   for (int i=0; i<3; i++) {
     for (int j=0; j<3; j++) printf("%2d ", a[i][j]);
-    if (i==1) printf("-> ");
+    if (i == 1) printf("-> ");
     else printf("   ");
     for (int j=0; j<3; j++) {
       printf("%2d ", a[j][i]);
-      if (j==2) printf("\n");
+      if (j == 2) printf("\n");
     }
   }
   return 0;

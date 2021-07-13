@@ -17,16 +17,16 @@ int main() {
     scanf("%d", &d[i].month);
     printf("Enter the year: ");
     scanf("%d", &d[i].year);
-    day=day+d[i].day;
-    month=month+d[i].month;
-    year=year+d[i].year;
+    day = day+d[i].day;
+    month = month+d[i].month;
+    year = year+d[i].year;
   }
   while (day>31) {
-    day=day-31;
+    day = day-31;
     month++;
   }
   while (month>12) {
-    month=month-12;
+    month = month-12;
     year++;
   }
   printf("The Sum of Dates is %d/%d/%d (Y/M/D).", year, month, day);

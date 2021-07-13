@@ -7,14 +7,14 @@ int main() {
     printf("Enter a number: ");
     scanf("%d", &a[i]);
   }
-  min=a[0];
+  min = a[0];
   printf("The values are: ");
   for (int i=0; i<10; i++) {
     for (int j=i; j<10; j++) {
       if (a[i]>a[j]) {
-        min=a[j];
-        a[j]=a[i];
-        a[i]=min;
+        min = a[j];
+        a[j] = a[i];
+        a[i] = min;
       }
     }
     printf("%d, ", a[i]);
