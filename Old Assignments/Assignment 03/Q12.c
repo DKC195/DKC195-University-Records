@@ -8,7 +8,7 @@ int main() {
   scanf("%d", &x);
   printf("Enter the power to be raised: ");
   scanf(" %d", &n);
-  for (int i=0; i<n; i++) y=y*x;
+  for (int i=0; i<n; i++) y = y*x;
   printf("The answer is %d.", y);
   return 0;
 }

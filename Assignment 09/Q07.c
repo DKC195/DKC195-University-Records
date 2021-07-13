@@ -9,7 +9,7 @@ int main() {
   for (int i=0; str1[i]!='\0'; i++) {
     rough=0;
     for (int j=0; j<10; j++) {
-      if (str1[1]==vowel[j]) {
+      if (str1[1] == vowel[j]) {
         rough=1;
         break;
       }

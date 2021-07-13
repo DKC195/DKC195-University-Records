@@ -9,9 +9,9 @@ int main() {
   else {
     printf("The Fibonacci Series is: %d, %d, ",x, y);
     for (int i=0; i<n; i++) {
-      z=x+y;
-      x=y;
-      y=z;
+      z = x+y;
+      x = y;
+      y = z;
       printf("%d,", z);
     }
   }

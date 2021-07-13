@@ -6,8 +6,8 @@ int main() {
   printf("Enter a number n: ");
   scanf("%d", &n);
   for (int i=0; i<n; i++) {
-    x=x+j;
-    j=j*10+1;
+    x = x+j;
+    j = j*10+1;
   }
   printf("The sum is %d.",x);
   return 0;

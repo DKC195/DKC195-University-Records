@@ -8,13 +8,13 @@ int main() {
   gets(str1);
   printf("Enter another string: ");
   gets(str2);
-  while(str1[n]!='\0') n++;
+  while(str1[n] != '\0') n++;
   for (int i=0; i<n; i++) {
-    if (str1[i]!=str2[i]) {
+    if (str1[i] != str2[i]) {
       printf("The strings are not same.");
       break;
     }
-    else if (i==n-1) printf("The strings are same.");
+    else if (i == n-1) printf("The strings are same.");
   }
   return 0;
 }

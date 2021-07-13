@@ -8,7 +8,7 @@ int main() {
   do {
     printf("Enter a number: ");
     scanf("%f", &n);
-    x=x+n;
+    x = x+n;
     i++;
   } while (n!=0);
   printf("The sum is %.2f and the average is %.2f.", x, x/(i-1));

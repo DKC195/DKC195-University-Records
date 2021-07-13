@@ -12,6 +12,6 @@ int main() {
 
 int rev(int x){
   int y=0;
-  for (int i=x; i>0; i/=10) y=y*10+i%10;
+  for (int i=x; i>0; i/=10) y = y*10+i%10;
   return y;
 }

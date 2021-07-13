@@ -20,14 +20,14 @@ int main() {
   printf("The Sum is: \n");
   for (int i=0; i<3; i++) {
     for (int j=0; j<3; j++) printf("%2d ", a[i][j]);
-    if (i==1) printf(" + ");
+    if (i == 1) printf(" + ");
     else printf("   ");
     for (int j=0; j<3; j++) printf("%2d ", b[i][j]);
-    if (i==1) printf(" = ");
+    if (i == 1) printf(" = ");
     else printf("   ");
     for (int j=0; j<3; j++) {
       printf("%2d ", a[i][j]+b[i][j]);
-      if (j==2) printf("\n");
+      if (j == 2) printf("\n");
     }
   }
   return 0;

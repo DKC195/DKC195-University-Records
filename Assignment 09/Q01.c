@@ -6,7 +6,7 @@ int main() {
   int i=0;
   printf("Enter a string: ");
   gets(string);
-  while(string[i]!='\0') i++;
+  while(string[i] != '\0') i++;
   printf("The length of string is %d.", i);
   return 0;
 }

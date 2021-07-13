@@ -4,25 +4,25 @@
 
 int main(){
 	char c;
-	int x,y;
-	printf("Enter your arithematic operator (+, -, *, /): ");
-	scanf("%c",&c);
+	int x, y;
+	printf("Enter your arithematic operator (+,  -,  *,  /): ");
+	scanf("%c", &c);
 	printf("Enter your first number: ");
-	scanf("%d",&x);
+	scanf("%d", &x);
 	printf("Enter your second number: ");
-	scanf("%d",&y);
+	scanf("%d", &y);
 	switch(c) {
 		case '+':
-      printf("The sum is %d",x+y);
+      printf("The sum is %d", x+y);
 	    break;
 	  case '-':
-      printf("The difference is %d",x-y);
+      printf("The difference is %d", x-y);
       break;
 	  case '*':
-	    printf("The product is %d",x*y);
+	    printf("The product is %d", x*y);
       break;
     case '/':
-      printf("The quotient is %d",x/y);
+      printf("The quotient is %d", x/y);
       break;
     default:
     	printf("Choose a proper operator");

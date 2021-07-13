@@ -26,7 +26,7 @@ int main() {
   printf("\n\nFilter: Living in DHARAN\n");
   printf("S.No. \t ID \t Name \t Addeess \t Salary\n");
   for (int i=0; i<10; i++) {
-    if (strcmp(p[i].address,"DHARAN")==0) printf(" %d \t %d \t %s \t %s \t %d\n", i+1, p[i].empid, p[i].name, p[i].address, p[i].salary);
+    if (strcmp(p[i].address,"DHARAN") == 0) printf(" %d \t %d \t %s \t %s \t %d\n", i+1, p[i].empid, p[i].name, p[i].address, p[i].salary);
   }
   return 0;
 }

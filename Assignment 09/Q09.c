@@ -12,7 +12,7 @@ int main() {
       printf("The word is not palindrome.");
       break;
     }
-    else if(j==i-1) printf("The word is palindrome.");
+    else if(j == i-1) printf("The word is palindrome.");
   }
   return 0;
 }

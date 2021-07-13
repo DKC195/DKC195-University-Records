@@ -6,7 +6,7 @@ int main() {
   for (int i=0; i<10; i++) {
     printf("Enter a number: ");
     scanf("%f", &a[i]);
-    b=b+a[i];
+    b = b+a[i];
   }
   printf("The sum and average is %.1f and %.2f", b, b/10);
   return 0;

@@ -9,7 +9,7 @@ int main() {
   }
   for (int i=1; i<10; i++) {
     j=10-i;
-    b[i]=a[j];
+    b[i] = a[j];
     printf("b[%d]=%d \n", i,b[i]);
   }
   return 0;

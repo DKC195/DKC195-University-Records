@@ -7,7 +7,7 @@ int main() {
     for (int j=0; j<3; j++) {
       printf("Enter a number: ");
       scanf("%d", &a[i][j]);
-      if (i==j) sum=sum+a[i][j];
+      if (i == j) sum = sum+a[i][j];
     }
   }
   printf("The sum of diagonal matrix is %d.", sum);

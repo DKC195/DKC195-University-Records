@@ -17,16 +17,16 @@ int main() {
     scanf("%d", &d[i].minute);
     printf("Enter the hour: ");
     scanf("%d", &d[i].hour);
-    second=second+d[i].second;
-    minute=minute+d[i].minute;
-    hour=hour+d[i].hour;
+    second = second+d[i].second;
+    minute = minute+d[i].minute;
+    hour = hour+d[i].hour;
   }
   while (second>=60) {
-    second=second-60;
+    second = second-60;
     minute++;
   }
   while (minute>=60) {
-    minute=minute-60;
+    minute = minute-60;
     hour++;
   }
   printf("The Sum of Time is %d:%d:%d.", hour, minute, second);

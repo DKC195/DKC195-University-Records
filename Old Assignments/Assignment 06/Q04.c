@@ -12,9 +12,9 @@ int main() {
 
 int rev(int x) {
   int y,z=1;
-  if(x==0) return 0;
+  if(x == 0) return 0;
   for (int i=x; i>0; i/=10) {
-    y=i%10;
+    y = i%10;
     z*=10;
   }
   return y+rev(x%(z/10))*10;
