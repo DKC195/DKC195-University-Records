@@ -9,8 +9,6 @@ struct student {
 
 int main() {
   FILE *dat = fopen("STUDENT.DAT", "w");
-  int roll, age;
-  char name[20];
 
   if (dat == NULL) {
     printf("Error!");
