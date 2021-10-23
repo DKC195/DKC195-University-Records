@@ -9,7 +9,7 @@
 7. WAP to read two numbers and an arithmetic operator and perform the corresponding arithmetic operation on those numbers. (Using both else if and switch ).
 8. WAP to read percentage scored by a student and print the corresponding division. (Using both else if and switch ).
   * Percent   Division
-  * >80       Distinction
+  * 80<       Distinction
   * 60-79     First Division
   * 50-59     Second Division
   * 40-49     Third Division
