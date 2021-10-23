@@ -1,32 +1,4 @@
-WAP to generate the follwing output:
-(a) *          (b) * * * * *  (c)         *  (d) * * * * *
-    * *            * * * *              * *        * * * *
-    * * *          * * *              * * *          * * *
-    * * * *        * *              * * * *            * * 
-    * * * * *      *              * * * * *              *
-
-(e)         *          (f) A B C D E F G F E D C B A
-          * * *            A B C D E F   F E D C B A
-        * * * * *          A B C D E       E D C B A
-      * * * * * * *        A B C D           D C B A
-    * * * * * * * * *      A B C               C B A
-                           A B                   B A
-                           A                       A
-
-(g) 1          (h) 1          (i) 1          (j) 1
-    1 1            1 2            2 2            2 3
-    1 1 1          1 2 3          3 3 3          4 5 6
-    1 1 1 1        1 2 3 4        4 4 4 4        7 8 9 10
-    1 1 1 1 1      1 2 3 4 5      5 5 5 5 5      11 12 13 14 15
-
-(k)         1          (l) 1            (m) 1 3 5 7 9  (n) 1 2 3 4 5
-          1 2 1            2 6              3 5 7 9      2 3 4 5
-        1 2 3 2 1          3 7 10           5 7 9        3 4 5
-      1 2 3 4 3 2 1        4 8 11 13        7 9          4 5
-    1 2 3 4 5 4 3 2 1      5 9 12 14 15     9            5
-
-(o) 1 1 1 1 1  (p) 1 0 1 0 1
-    0 0 0 0 0      0 1 0 1 0
-    1 1 1 1 1      1 0 1 0 1
-    0 0 0 0 0      0 1 0 1 0
-    1 1 1 1 1      1 0 1 0 1
+## Assignment 04:
+### Nested Looping
+WAP to generate the follwing output:\
+![Questions](https://github.com/DKC195/DKC/blob/Incomplete/Sem%201%20(C%20Programming)%20Assignments/Assignment%2004/Assignment-04.png?raw=true)

@@ -1,4 +1,5 @@
-Assignment 03 Looping
+## Assignment 03:
+### Looping
 1. WAP to print numbers from 25 to 150.
 2. WAP to calculate the sum of numbers from 1 to 100
 3. WAP to calculate the sum of cube of numbers from 1 to 100.
@@ -18,4 +19,4 @@ Assignment 03 Looping
 17. WAP to check whether a given number is palindrome or not.
 18. WAP to find the sum of series: 1 + 11 + 111 + 1111 + 11111 . . . .   + n.
 19. WAP to read a +ve integer and determine and print its binary equivalent .
-20.Write a program in C to display the n terms of square natural number and their sum. ( 1 4 9 16 25.. n terms).
+20. Write a program in C to display the n terms of square natural number and their sum. ( 1 4 9 16 25.. n terms).

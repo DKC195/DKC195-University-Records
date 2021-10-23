@@ -1,4 +1,4 @@
-Assignment 01
+## Assignment 01
 1. WAP to declare variable of all Data Types, read the values and display them.
 2. WAP to read the distance between two cities (in km) and display the distance in meters, feet, inches and centimeters.
 3. WAP to read marks obtained by a student in five subjects. Read the full max of each subject as well. Print the percentage score by the student.
