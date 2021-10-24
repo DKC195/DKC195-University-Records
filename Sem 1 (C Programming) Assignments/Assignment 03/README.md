@@ -1,4 +1,4 @@
-## Assignment 03:
+## Assignment 03
 ### Looping
 1. WAP to print numbers from 25 to 150.
 2. WAP to calculate the sum of numbers from 1 to 100
