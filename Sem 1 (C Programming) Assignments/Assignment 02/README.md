@@ -1,4 +1,4 @@
-## Assignment 02:
+## Assignment 02
 ### Selective Structures (Using if, if else, switch)
 1. WAP to read 3 numbers and find the middle number.
 2. WAP to read an alphabet and convert it into Uppercase if it is lowercase and vice versa.
