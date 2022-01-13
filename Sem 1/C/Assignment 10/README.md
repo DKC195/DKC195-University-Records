@@ -1,5 +1,5 @@
-## Assignment 10
-### Defining and Accessing Structure and its members
+# Assignment 10
+## Defining and Accessing Structure and its members
 1. Define a structure named Person, Employee, Item, Account, Author, Book, Point, Customer with its members:
   - Person (name, age, address, contact)
   - Employee (id, name, address, contact, doj, designation, salary)

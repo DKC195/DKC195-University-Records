@@ -1,5 +1,5 @@
-## Assignment 07
-### Single Dimensional Array
+# Assignment 07
+## Single Dimensional Array
 1. WAP to read 10 elements in an array and calculate the sum and average of all elements.
 2. WAP to read 10 elements in an array and count the occurrence of odd and even numbers.
 3. WAP to read 10 elements in an array and copy all the elements to another array.

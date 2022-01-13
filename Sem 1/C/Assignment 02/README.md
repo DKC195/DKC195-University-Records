@@ -1,5 +1,5 @@
-## Assignment 02
-### Selective Structures (Using if, if else, switch)
+# Assignment 02
+## Selective Structures (Using if, if else, switch)
 1. WAP to read 3 numbers and find the middle number.
 2. WAP to read an alphabet and convert it into Uppercase if it is lowercase and vice versa.
 3. WAP to read a year and check whether it is leap year or not. (Note: A year is leap year if it is divisible only by 4 or by 4,100 and 400)
