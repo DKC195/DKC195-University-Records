@@ -1,5 +1,5 @@
-## Assignment 05
-### User Defined Functions
+# Assignment 05
+## User Defined Functions
 1. WAP to find the square of any number using the function.
 2. WAP to swap two numbers using function.
 3. WAP to check a given number is even or odd using the function.

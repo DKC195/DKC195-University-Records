@@ -1,5 +1,5 @@
-## Assignment 9
-### Strings
+# Assignment 9
+## Strings
 1. WAP to find the length of a given string without using a library function.
 2. WAP to copy the content of a given string to another without using a library function.
 3. WAP to reverse a given string without using a library function.

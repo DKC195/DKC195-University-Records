@@ -1,5 +1,5 @@
-## Assignment 11
-### Array of Structures
+# Assignment 11
+## Array of Structures
 1. Define a structure named Student having members name, rollno and marks in 5 subjects. WAPto read record of 10 students. Calculate total marks and percentage of each student and print them.
 2. Define a structure name Employee having its member empid, name, address, and salary. WAP to read record of 10 employees and 
   - Display record of all employees who live in 'DHARAN'.

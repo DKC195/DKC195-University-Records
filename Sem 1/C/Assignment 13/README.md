@@ -1,5 +1,5 @@
-## Assignment #12
-### Data Files
+# Assignment #12
+## Data Files
 1. WAP to write “Purwanchal Campus” to a file, read the content from the file and display it on the screen.
 2. WAP to read numbers from a file and write even, odd to separate file.
 3. WAP to merge two file to third file.

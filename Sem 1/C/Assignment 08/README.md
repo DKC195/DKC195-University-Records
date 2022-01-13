@@ -1,5 +1,5 @@
-## Assignment 8
-### Two Dimensional Array
+# Assignment 8
+## Two Dimensional Array
 1. WAP to read elements in an array (3x3) and calculate the sum and average of all elements.
 2. WAP to read elements in an array (2x3) and calculate sum of rows.
 3. WAP to read elements in an array (3x5) and calculate sum of columns.

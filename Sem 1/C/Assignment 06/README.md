@@ -1,5 +1,5 @@
-## Assignment 06
-### Recursion
+# Assignment 06
+## Recursion
 1. WAP to find power of any number using recursion.
 2. WAP to find the product of two given numbers using recursion.
 3. WAP to find sum of all natural numbers between 1 to n using recursion.
