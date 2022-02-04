@@ -1,3 +1,3 @@
 # DKC
 
-I'm Just Practicing to Use Git
+A record of what I did as assignments during my University Days.
