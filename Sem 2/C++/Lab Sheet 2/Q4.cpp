@@ -2,28 +2,28 @@
 #include <iostream>
 using namespace std;
 
-void temp(int *x, int *y)
+int &temp(int &x, int &y)
 {
-  int a = *x, b = *y;
-  if (a < b)
-  {
-    *x = b;
-    *y = a;
-  }
+  if (*&x < *&y)
+    return x;
+  else
+    return y;
 }
 
 int main()
 {
-  int x, y;
+  int a, x, y;
 
   cout << "Enter 1st Number: ";
   cin >> x;
   cout << "Enter 2nd Number: ";
   cin >> y;
 
-  temp(&x, &y);
+  cout << "Enter a random value: ";
+  cin >> a;
+  temp(x, y) = a;
 
-  cout << "Largest Value: " << x;
+  cout << "Set Value: " << x;
 
   return 0;
 }
