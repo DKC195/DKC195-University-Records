@@ -15,16 +15,13 @@ void temp(int *x, int *y)
 int main()
 {
   int x, y;
-  int *a, *b;
-  a = &x;
-  b = &y;
 
   cout << "Enter 1st Number: ";
   cin >> x;
   cout << "Enter 2nd Number: ";
   cin >> y;
 
-  temp(a, b);
+  temp(&x, &y);
 
   cout << "Largest Value: " << x;
 
