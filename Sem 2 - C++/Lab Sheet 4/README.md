@@ -7,8 +7,11 @@
 3. Write a class that can store Department ID and Department Name with constructors to initialize its members. Write destructor member in the same class and display the message "Object n goes out of the scope". Your program should be made such that it should show the order of constructor and destructor invocation.
 4. Assume that one constructor initializes data member say num_vehicle, hour, and rate. There should be a 10% discount if num_vehicle exceeds 10. Display the total charge. Use two objects and show a bit-by-bit copy of one object to another (make your own copy constructor).
 5. Write a program that illustrates the following relationship and comment on them. 
-i) const_object.non_const_mem_function
-ii) const_object.const_mem_function
-iii) non_const_object.non_const_mem_function
-iv) non_const_object.const_mem_function
+> i) const_object.non_const_mem_function
+> 
+> ii) const_object.const_mem_function
+> 
+> iii) non_const_object.non_const_mem_function
+> 
+> iv) non_const_object.const_mem_function
 6. Create a class with a data member to hold a "serial number" for each object created from the class. That is, the first object created will be numbered 1, the second 2, and so on by using the basic concept of static data members. Use static member function if it is useful in the program. Otherwise, make a separate program that demonstrates the use of static member function.
