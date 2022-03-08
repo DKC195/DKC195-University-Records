@@ -20,20 +20,21 @@ public:
 
   void join(Text A, Text B)
   {
-    cout << A.A << B.A << endl;
+    string merge = A.A + B.A;
+    cout << merge << endl;
   }
 };
 
 Text::Text(string B)
 {
-  temp = new char[20];
+  temp = new char[B.length()];
   *temp = A[0];
   A = B;
 }
 
 Text::~Text()
 {
-  delete temp;
+  delete[] temp;
 }
 
 int main()
