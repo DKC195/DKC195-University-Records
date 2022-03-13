@@ -44,5 +44,5 @@ int main()
   Mem V1;
   Mem V2 = V1;
   V2.display();
-  return 0;
+  exit(0);
 }
