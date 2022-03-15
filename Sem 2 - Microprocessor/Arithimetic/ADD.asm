@@ -8,4 +8,10 @@ MOV A, M      ; A = VAL(08A0H)
 INX H   			; ADDRESS = 08A1H
 ADD M		    	; A = A + VAL(08A1H)
 INX H			    ; ADDRESS = 08A2H
+MOV M, A		  ; VAL(08A2H) = A
+
+LXI H, 08A2H	; ADD USING ADI - ADDRESS = 08A0H
+MOV A, M      ; A = VAL(08A0H)
+ADI 20H		    ; A = A + 20H
+INX H				  ; ADDRESS = 08A3H
 MOV M, A		  ; VAL(08A3H) = A
