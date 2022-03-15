@@ -9,3 +9,4 @@ INX H   			; ADDRESS = 08A1H
 SUB M		    	; A = A - VAL(08A1H)
 INX H			    ; ADDRESS = 08A2H
 MOV M, A		  ; VAL(08A2H) = A
+HLT
