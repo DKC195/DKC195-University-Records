@@ -5,3 +5,4 @@ MOV A, M      ; A = VAL(08A0H)
 ADI 20H		    ; A = A + 20H
 INX H				  ; ADDRESS = 08A1H
 MOV M, A		  ; VAL(08A1H) = A
+HLT

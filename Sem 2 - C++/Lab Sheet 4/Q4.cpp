@@ -7,7 +7,7 @@ using namespace std;
 class Mem
 {
 private:
-  int *num_vehicle = new int, *hour = new int, *rate = new int;
+  int num_vehicle, hour, rate;
 
 public:
   Mem();
@@ -15,8 +15,8 @@ public:
 
   int display()
   {
-    int dis = (*num_vehicle > 10) ? 10 : 0;
-    cout << "Total Charge: " << *num_vehicle * *rate * (100 - dis) << endl;
+    int dis = (num_vehicle > 10) ? 10 : 0;
+    cout << "Total Charge: " << num_vehicle * rate * (100 - dis) << endl;
     return 0;
   }
 };
@@ -25,24 +25,21 @@ Mem::Mem()
 {
   cout << "Register Your Vehicle" << endl
        << "Enter No. of Vechicles: ";
-  cin >> *num_vehicle;
+  cin >> num_vehicle;
   cout << "Enter No. of Hours Parked: ";
-  cin >> *hour;
+  cin >> hour;
   cout << "Enter Rates: ";
-  cin >> *rate;
+  cin >> rate;
 }
 
 Mem::~Mem()
 {
-  delete num_vehicle;
-  delete hour;
-  delete rate;
+  display();
 }
 
 int main()
 {
   Mem V1;
   Mem V2 = V1;
-  V2.display();
-  exit(0);
+  return 0;
 }
