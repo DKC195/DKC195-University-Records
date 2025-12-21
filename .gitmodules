@@ -1,3 +1,6 @@
 [submodule "DKC195-Sem-2-OOP-in-CPP"]
 	path = DKC195-Sem-2-OOP-in-CPP
 	url = https://github.com/DKC195/DKC195-Sem-2-OOP-in-CPP
+[submodule "DKC195-Sem-1-C-Programming"]
+	path = DKC195-Sem-1-C-Programming
+	url = https://github.com/DKC195/DKC195-Sem-1-C-Programming
